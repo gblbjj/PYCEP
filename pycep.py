@@ -14,3 +14,6 @@ if __name__ == '__main__':
     logradouro, localidade = consulta_cep('02882070')
     print (logradouro)
     print (localidade)    
+    
+    
+    
