@@ -1,3 +1,5 @@
+
+
 def consulta_cep(cep):
     import requests
     url = 'https://viacep.com.br/ws/%s/json/'%cep
@@ -9,6 +11,6 @@ def consulta_cep(cep):
     return logradouro, localidade
 
 if __name__ == '__main__':
-    logradouro, localidade = consulta_cep('06330000')
+    logradouro, localidade = consulta_cep('02882070')
     print (logradouro)
     print (localidade)    
